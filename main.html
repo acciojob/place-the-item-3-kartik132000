@@ -4,6 +4,25 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+		/* CSS for the holder element */
+.holder {
+    display: flex; /* Enables flexbox layout */
+    flex-wrap: wrap; /* Allows items to wrap onto the next row if needed */
+    justify-content: space-evenly; /* Ensures items are evenly spaced in each row */
+    gap: 10px; /* Optional: Adds some spacing between the items */
+}
+
+/* Optional: Basic styling for items */
+.holder .item {
+    flex: 0 1 calc(33.333% - 20px); 
+    box-sizing: border-box; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+	</style>
 </head>
 
 <body>
